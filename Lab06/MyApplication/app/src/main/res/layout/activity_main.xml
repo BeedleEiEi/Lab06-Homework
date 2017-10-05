@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="assignment.beedle.myapplication.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_head" />
+
+        <ImageView
+            android:id="@+id/profileImg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/profileImg"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="สวัสดี"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/profileImg"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="สมชาย"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/transferImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#ffffff"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_transfer" />
+
+        <ImageButton
+            android:id="@+id/billingImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#ffffff"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_bill" />
+
+        <ImageButton
+            android:id="@+id/etcImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#ffffff"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_transaction" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/mobileImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#ffffff"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_mobile" />
+
+        <ImageButton
+            android:id="@+id/favoriteImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#ffffff"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_add" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:backgroundTint="#ffffff"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_promo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#ffffff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_home"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/profileImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#ffffff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_book"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/transfer2ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#ffffff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_transaction" />
+
+        <ImageButton
+            android:id="@+id/notificationImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#ffffff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_noti" />
+
+        <ImageButton
+            android:id="@+id/moreImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#ffffff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_menu" />
+
+    </LinearLayout>
+
+</LinearLayout>
