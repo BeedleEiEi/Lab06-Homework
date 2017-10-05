@@ -19,7 +19,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity" />
-        <activity android:name=".ThirdActivity"></activity>
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".MoneyTransfer" />
+        <activity android:name=".MoneyTransfer2" />
+        <activity android:name=".ConfirmData" />
+        <activity android:name=".ConfirmTransferMoney"></activity>
     </application>
 
 </manifest>

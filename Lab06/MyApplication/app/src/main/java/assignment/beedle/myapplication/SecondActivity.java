@@ -18,8 +18,18 @@ public class SecondActivity extends AppCompatActivity {
         firstMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //finish();
-                Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
+                finish();
+                Intent intent = new Intent(SecondActivity.this, MoneyTransfer.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton home = (ImageButton) findViewById(R.id.imageButton);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+                Intent intent = new Intent(SecondActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
